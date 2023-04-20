@@ -26,3 +26,10 @@ while True:
     # Print the decrypted text with a colorful pyfiglet title
     title = pyfiglet.figlet_format("Decrypted Text")
     print(Fore.BLUE + title)
+
+    # Print the decrypted text with alternating colors for each character
+    for i in tqdm(range(len(decrypted_text))):
+        if i % 2 == 0:
+            print(Fore.GREEN + decrypted_text[i], end = '')
+        else:
+            print(Fore.MAGENTA + decrypted_text[i], end = '')
