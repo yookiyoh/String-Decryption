@@ -6,3 +6,8 @@ import pyfiglet
 import time
 from colorama import init, Fore, Style
 from tqdm import tqdm
+
+init() # Initialize colorama module
+
+while True:
+    encrypted_text = input("Enter a string to decrypt: ")
