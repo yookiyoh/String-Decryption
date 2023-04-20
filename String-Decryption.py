@@ -3,3 +3,4 @@
 # Object-Oriented Programming - Assignment 2 - #2
 
 import pyfiglet
+import time
