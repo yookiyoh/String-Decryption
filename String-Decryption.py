@@ -22,3 +22,7 @@ while True:
             decrypted_text += decrypt_dict[char]
         else:
             decrypted_text += char
+    
+    # Print the decrypted text with a colorful pyfiglet title
+    title = pyfiglet.figlet_format("Decrypted Text")
+    print(Fore.BLUE + title)
