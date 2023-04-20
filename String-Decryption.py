@@ -11,3 +11,6 @@ init() # Initialize colorama module
 
 while True:
     encrypted_text = input("Enter a string to decrypt: ")
+
+    # Create a dictionary for decryption
+    decrypt_dict = {'*': 'a', '&': 'e', '#': 'i', '+': 'o', '!': 'u'}
