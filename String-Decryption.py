@@ -5,3 +5,4 @@
 import pyfiglet
 import time
 from colorama import init, Fore, Style
+from tqdm import tqdm
