@@ -34,3 +34,6 @@ while True:
         else:
             print(Fore.MAGENTA + decrypted_text[i], end = '')
         time.sleep(0.05)
+    
+    # Reset colorama style
+    print(Style.RESET_ALL)
