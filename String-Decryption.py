@@ -43,3 +43,7 @@ while True:
         answer = input("Do you want to decrypt another string? (y/n) ")
         if answer.lower() == 'y':
             break
+        elif answer.lower() == 'n':
+            print(Fore.YELLOW + pyfiglet.figlet_format("Goodbye!"))
+            time.sleep(1)
+            exit()
