@@ -49,3 +49,5 @@ while True:
             exit()
         else:
             print(Fore.RED + "Invalid input. Please enter 'y' or 'n'.")
+
+# Program is now complete
