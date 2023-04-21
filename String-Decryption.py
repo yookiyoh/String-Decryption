@@ -37,3 +37,7 @@ while True:
     
     # Reset colorama style
     print(Style.RESET_ALL)
+
+    # Ask user if they want to try again
+    while True:
+        answer = input("Do you want to decrypt another string? (y/n) ")
