@@ -33,3 +33,4 @@ while True:
             print(Fore.GREEN + decrypted_text[i], end = '')
         else:
             print(Fore.MAGENTA + decrypted_text[i], end = '')
+        time.sleep(0.05)
