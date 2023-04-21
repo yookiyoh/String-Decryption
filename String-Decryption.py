@@ -45,7 +45,7 @@ while True:
             break
         elif answer.lower() == 'n':
             print(Fore.YELLOW + pyfiglet.figlet_format("Goodbye!"))
-            time.sleep(1)
+            time.sleep(1.00)
             exit()
         else:
             print(Fore.RED + "Invalid input. Please enter 'y' or 'n'.")
