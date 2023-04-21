@@ -47,3 +47,5 @@ while True:
             print(Fore.YELLOW + pyfiglet.figlet_format("Goodbye!"))
             time.sleep(1)
             exit()
+        else:
+            print(Fore.RED + "Invalid input. Please enter 'y' or 'n'.")
